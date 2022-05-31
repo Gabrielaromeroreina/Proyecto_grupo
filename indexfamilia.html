@@ -15,22 +15,53 @@
     
   <!--Navbar-->
   <section>
-    <nav class="navbar navbar-expand-lg bg-blue">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="assets/img/Logo Isabela.png" height="45" width="45" ></a>
-      <div class="text-title d-flex">
-        <h5 class="text-white mt-2">Familia Petiis Care</h5>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2a6171;">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-3" href="index.html">
+          <img src="assets/img/Logo Isabela.png" alt="logo" width="60" height="60">
+        </a>
+        <div class="text-title d-flex collapse navbar-collapse">
+          <h5 class="text-white mt-2">Familia Petiis Care</h5>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex justify-content-end">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="veterinarias.html">Veterinaria</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="calendario.html">Baño y Peluquería</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Restaurantes pet friendly.html">Restaurantes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tu Cuenta
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Iniciosesion.html">Inicio Sesión</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="indexformulario.html">Crear Cuenta</a></li>
+              </ul>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link active" href="#" id="" role="button" data-bs-toggle="" aria-expanded="false">
+                Carrito
+              </a>
+            </li>
+            <img src="assets/img/Logo Isabela - Carrito .png " alt="logo" width="45" height="45">
+          </ul>
+        </div>
       </div>
+    </div>
     </nav>
   </section>
   <!--Head-->
@@ -48,7 +79,7 @@
        <div class="col-md-6">
           <div class="header-content-right mt-8">
             <div>  
-                <img src="assets/img/Dogs.jpg"
+                <img class="imgpet" src="assets/img/Dogs.jpg"
                alt="Dogs"
                width="700"
                height="600"/> 
@@ -70,92 +101,95 @@
   <a href="https://youtu.be/lxlW3O-ADko" ><img src="assets/img/video4.jpg" width="300" height="200"/></a>
   </div>
 </section>
-
-<div class="pt-5">
-  <footer class="text-center text-white p-2" style="background-color: #2a6171;">
-      
-      <!--Grid row-->
-     
-        <!--Grid column-->
-      <div class="d-flex justify-content-center text-decoration-none">
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+     <!-- Footer -->
+     <section>
+     <div class="pt-5">
+      <footer class="text-center text-white p-2" style="background-color: #2a6171;">
           
-            <h5 class="text" style="color: white;">Siguenos en:</h5>
-            <img src="assets/img/logotipo-de-instagram.png" alt="logo" width="50" height="50" >
-            <img src="assets/img/facebook.png" alt="logo" width="50" height="50">
-            <img src="assets/img/gorjeo.png" alt="logo" width="50" height="50">
-        </div>
-        
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text" style="color: white;">Petiis Care</h5>
-  
-          <ul class="list-unstyled mb-0" style="text-align: justify;">
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Sobre Petiis Care</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Servicios</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Trabaja con nosotros</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Terminos y condiciones</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text" style="color: white;">Links de Interes</h5>
-  
-          <ul class="list-unstyled mb-0" style="text-align: justify;">
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Preguntas Frecuentes</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Como comprar</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Politica de privacidad</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Politicas de entrega</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text" style="color: white;">Agenda tu Cita</h5>
-  
-          <ul class="list-unstyled mb-0 justify-content-end"style="text-align: justify;">
-            <li>
-              <a href="#" class="text-white text-decoration-none">Telefono: +57 3101234567</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Servicioalciente@petiiscare.com</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Bogota D.C, Colombia</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+          <!--Grid row-->
+         
+            <!--Grid column-->
+          <div class="d-flex justify-content-center text-decoration-none">
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              
+                <h5 class="text" style="color: white;">Siguenos en:</h5>
+                <img src="assets/img/logotipo-de-instagram.png" alt="logo" width="50" height="50" >
+                <img src="assets/img/facebook.png" alt="logo" width="50" height="50">
+                <img src="assets/img/gorjeo.png" alt="logo" width="50" height="50">
+            </div>
+            
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text" style="color: white;">Petiis Care</h5>
+      
+              <ul class="list-unstyled mb-0" style="text-align: justify;">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Sobre Petiis Care</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Servicios</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Trabaja con nosotros</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Terminos y condiciones</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text" style="color: white;">Links de Interes</h5>
+      
+              <ul class="list-unstyled mb-0" style="text-align: justify;">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Como comprar</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Politica de privacidad</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Politicas de entrega</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text" style="color: white;">Agenda tu Cita</h5>
+      
+              <ul class="list-unstyled mb-0 justify-content-end"style="text-align: justify;">
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Telefono: +573101234567</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Servicioalciente@petiiscare.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Bogota D.C, Colombia</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        <!-- Section: Links -->
       </div>
-      <!--Grid row-->
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
-  </div>
-  </footer>
-
-
+      <!-- Grid container -->
+      </div>
+      </footer>
+      <!-- Footer -->
+      </footer>
+      </div>
+    </section>
 
 
 
